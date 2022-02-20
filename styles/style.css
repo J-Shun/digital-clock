@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-transform: uppercase;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#c5c3c5), to(#64625f));
+  background: linear-gradient(90deg, #c5c3c5, #64625f);
+}
+
+.container h2 {
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  -webkit-text-decoration: underline 3px #fff;
+          text-decoration: underline 3px #fff;
+}
+
+.container .times {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+
+.container .times .time {
+  padding: 0.75rem;
+  margin: 1rem 1rem;
+  font-size: 2.5rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container .times .time:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 3px solid #d8d5d5;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
